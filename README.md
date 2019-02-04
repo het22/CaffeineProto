@@ -18,5 +18,6 @@
 - 손님은 **FSM**을 가지고 카페의 내부를 움직이거나 서있을 수 있다.
 
 ### Machine
-- 머신은 머신마다 다른 **ProcessCoffee로직**을 가진다.
+- 머신은 각기 다른 **ProcessCoffee로직**을 가진다.
 - 머신을 클릭하면 **ProcessCoffee로직**을 실행, **CurrentCoffee**를 변환한다.
+- 여러 머신을 거쳐서 손님에게 제공할 **CurrentCoffee**를 만들어 낼 수 있다.
