@@ -21,3 +21,6 @@
 - 머신은 각기 다른 **ProcessCoffee로직**을 가진다.
 - 머신을 클릭하면 **ProcessCoffee로직**을 실행, **CurrentCoffee**를 변환한다.
 - 여러 머신을 거쳐서 손님에게 제공할 **CurrentCoffee**를 만들어 낼 수 있다.
+
+### 레벨 디자인
+- **Screen**에 나오는 **Customer**들에게 각각 원하는 **CurrentCoffee**를 **Machine**을 통해 만들어 제공한다.
